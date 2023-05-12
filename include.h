@@ -16,8 +16,8 @@
 // Activate just one of the following 3 statements
 
 //#define SimulateExceptions              // use simulated exceptions
-#define UseExceptions                   // use C++ exceptions
-//#define DisableExceptions               // do not use exceptions
+//#define UseExceptions                   // use C++ exceptions
+#define DisableExceptions               // do not use exceptions
 
 
 //#define TEMPS_DESTROYED_QUICKLY         // for compilers that delete
@@ -28,8 +28,8 @@
 
 //#define DO_FREE_CHECK                   // check news and deletes balance
 
-#define USING_DOUBLE                    // elements of type double
-//#define USING_FLOAT                   // elements of type float
+//#define USING_DOUBLE                    // elements of type double
+#define USING_FLOAT                   // elements of type float
 
 #define bool_LIB 0                      // for compatibility with my older libraries
 
